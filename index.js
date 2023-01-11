@@ -22,4 +22,5 @@ app.use('/api/laporan', laporanRoute);
 const port = process.env.APP_PORT;
 app.listen(port, () => {
     console.log(`running on port ${port}`);
+    console.log('ini jalan');
 });
