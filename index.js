@@ -19,7 +19,7 @@ app.use('/api/portofolio', portofolioRoute);
 app.use('/api/pelaksanaan', pelaksanaanRoute);
 app.use('/api/laporan', laporanRoute);
 
-const port = process.env.APP_PORT;
+const port = process.env.APP_PORT || '3007';
 app.listen(port, () => {
     console.log(`running on port ${port}`);
     console.log('ini jalan');
